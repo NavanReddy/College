@@ -15,6 +15,9 @@ public class Student {
 	private int id;
 	@Column
 	private String name;
+	 public void hyd() {
+		   System.out.println("hiiii");
+	   }
 
 	
 }
